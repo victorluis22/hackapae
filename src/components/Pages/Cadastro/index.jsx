@@ -2,14 +2,14 @@ import ContentCards from '../../ContentCards'
 import IconText from '../../IconText'
 import Form from '../../Form'
 
-import computerGif from '../../../assets/homeAssets/computer.gif'
-import logoTop from '../../../assets/homeAssets/home_icon_top.png'
-import logoHalf from '../../../assets/homeAssets/home_icon_half.png'
-import logoBottom from '../../../assets/homeAssets/home_icon_bottom.png'
+import computerGif from '../../../assets/cadastroAssets/computer.gif'
+import logoTop from '../../../assets/cadastroAssets/cadastro_icon_top.png'
+import logoHalf from '../../../assets/cadastroAssets/cadastro_icon_half.png'
+import logoBottom from '../../../assets/cadastroAssets/cadastro_icon_bottom.png'
 
-import imgLeft from '../../../assets/homeAssets/home_left_img.png'
-import imgMid from '../../../assets/homeAssets/home_mid_img.png'
-import imgRight from '../../../assets/homeAssets/home_right_img.png'
+import imgLeft from '../../../assets/cadastroAssets/cadastro_left_img.png'
+import imgMid from '../../../assets/cadastroAssets/cadastro_mid_img.png'
+import imgRight from '../../../assets/cadastroAssets/cadastro_right_img.png'
 
 export default function Cadastro(){
     return(
@@ -55,13 +55,6 @@ export default function Cadastro(){
                 <Form />
             </ContentCards>
 
-            <ContentCards cor="rgba(0,0,0,0)">
-                <div className="images">
-                    <img src={imgLeft} alt="" />
-                    <img src={imgRight} alt="" />
-                    <img src={imgMid} alt="" />
-                </div>
-            </ContentCards>
         </div>
     )
 }

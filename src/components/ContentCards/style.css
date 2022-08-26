@@ -37,3 +37,21 @@
     margin: 19px;
 }
 
+.ContentCards .home-top-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContentCards .home-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.ContentCards .home-top-container img{
+    height: 400px;
+}
+
