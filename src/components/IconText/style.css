@@ -1,0 +1,10 @@
+.IconText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.IconText img {
+    width: 43px;
+    margin: 10px 20px;
+}

@@ -1,0 +1,30 @@
+.ContentCards{
+    background-color: #F2BE08;
+    border-radius: 10px;
+    margin: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ContentCards .title {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ContentCards .title img {
+    width: 200px;
+}
+
+.ContentCards .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ContentCards .images img{
+    margin: 18px;
+}
+

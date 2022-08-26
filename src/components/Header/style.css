@@ -1,0 +1,20 @@
+.Header {
+    background-color: #050003;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header .header-image {
+    width: 135px;
+}
+
+.Header .header-button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    background-color: #6C6964;
+    border-radius: 10px;
+    color: #fff;
+    margin: 2px 10px;
+    padding: 0px 30px;
+}
