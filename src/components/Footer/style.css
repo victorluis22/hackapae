@@ -1,0 +1,13 @@
+.Footer{
+    background-color: #050003;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer img{
+    width: 43px;
+    margin-left: 10px;
+}

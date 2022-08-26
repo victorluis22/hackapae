@@ -3,6 +3,15 @@
     border-radius: 10px;
     margin: 30px;
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContentCards .innerContent{
+    margin: 10px;
+    background-color: #AFAFAF;
+    opacity: 0.84;
+    border-radius: 10px;
 }
 
 .ContentCards .title {
@@ -25,6 +34,6 @@
 }
 
 .ContentCards .images img{
-    margin: 18px;
+    margin: 19px;
 }
 

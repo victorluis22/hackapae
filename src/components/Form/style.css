@@ -12,9 +12,10 @@
     margin: 10px;
     margin-bottom: 40px;
     color: #fff;
-    background-color: #1F590E;
+    background-color: #DB8118;
     border: 1px solid rgba(0, 0, 0, 0);
     width: 60%;
+    border-radius: 10px;
 }
 
 .Form button:hover {
