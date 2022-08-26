@@ -17,4 +17,16 @@
     color: #fff;
     margin: 2px 10px;
     padding: 0px 30px;
+    text-decoration: none;
+}
+
+.Header .header-button:hover{
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.Header .header-button:active {
+    opacity: 1;
+    border: 1px solid black;
+    color: #000;
 }

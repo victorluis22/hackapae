@@ -1,10 +1,15 @@
 import './style.css'
-import Home from '../Home'
+import Cadastro from '../Pages/Cadastro'
+import { Route, Routes } from 'react-router-dom'
 
 export default function Content(){
     return(
         <div className="Content">
-            <Home />
+            <Routes>
+                {/* <Route path="/" element={<Home />} /> */}
+                <Route path="/cadastro" element={<Cadastro />} />
+                {/* <Route path="/doacao" element={<Doacao />} /> */}
+            </Routes>
         </div>
     )
 }

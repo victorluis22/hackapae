@@ -1,14 +1,15 @@
 import './style.css'
 import LogoApae from '../../assets/logo_apae.png'
+import { Link } from 'react-router-dom'
 
 export default function Header(){
     return (
         <header className='Header'>
-            <img className='header-image' src={LogoApae} alt="Logo da Apae" />
+            <img className='header-image' src={LogoApae} alt="Logo da Apae"/>
             <div className="button-container">
-                <button className='header-button'>Evento</button>
-                <button className='header-button'>Cadastro</button>
-                <button className='header-button'>Doações</button>
+                <Link className='header-button' to='/'>Evento</Link>
+                <Link className='header-button' to='/cadastro'>Cadastro</Link>
+                <Link className='header-button' to='/doacoes'>Doações</Link>
             </div>
         </header>
     )

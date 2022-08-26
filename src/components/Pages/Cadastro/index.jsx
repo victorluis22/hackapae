@@ -1,17 +1,17 @@
-import ContentCards from '../ContentCards'
-import IconText from '../IconText'
-import Form from '../Form'
+import ContentCards from '../../ContentCards'
+import IconText from '../../IconText'
+import Form from '../../Form'
 
-import computerGif from '../../assets/homeAssets/computer.gif'
-import logoTop from '../../assets/homeAssets/home_icon_top.png'
-import logoHalf from '../../assets/homeAssets/home_icon_half.png'
-import logoBottom from '../../assets/homeAssets/home_icon_bottom.png'
+import computerGif from '../../../assets/homeAssets/computer.gif'
+import logoTop from '../../../assets/homeAssets/home_icon_top.png'
+import logoHalf from '../../../assets/homeAssets/home_icon_half.png'
+import logoBottom from '../../../assets/homeAssets/home_icon_bottom.png'
 
-import imgLeft from '../../assets/homeAssets/home_left_img.png'
-import imgMid from '../../assets/homeAssets/home_mid_img.png'
-import imgRight from '../../assets/homeAssets/home_right_img.png'
+import imgLeft from '../../../assets/homeAssets/home_left_img.png'
+import imgMid from '../../../assets/homeAssets/home_mid_img.png'
+import imgRight from '../../../assets/homeAssets/home_right_img.png'
 
-export default function Home(){
+export default function Cadastro(){
     return(
         <div className="Home">
             <ContentCards>
