@@ -1,6 +1,7 @@
 import './style.css'
 import Cadastro from '../Pages/Cadastro'
 import Home from '../Pages/Home'
+import Doacao from '../Pages/Doacoes'
 import { Route, Routes } from 'react-router-dom'
 
 export default function Content(){
@@ -9,7 +10,7 @@ export default function Content(){
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/cadastro" element={<Cadastro />} />
-                {/* <Route path="/doacao" element={<Doacao />} /> */}
+                <Route path="/doacao" element={<Doacao />} />
             </Routes>
         </div>
     )

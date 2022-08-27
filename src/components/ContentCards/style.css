@@ -9,8 +9,7 @@
 
 .ContentCards .innerContent{
     margin: 10px;
-    background-color: #AFAFAF;
-    opacity: 0.84;
+    background-color: rgba(175, 175, 175, 0.8);
     border-radius: 10px;
 }
 
@@ -49,6 +48,31 @@
     flex-direction: column;
     margin: 10px;
     font-size: 22px;
+}
+
+.ContentCards .innerContent .home-top .botao{
+    background-color: #B42884;
+    border: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding: 10px 60px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.ContentCards .innerContent .home-top .botao:hover {
+    opacity: 0.8;
+}
+
+.ContentCards .innerContent .home-top .botao:active {
+    opacity: 1;
+    border: 1px solid black;
+    color: #000;
+}
+
+.ContentCards .home-content {
+    width: 70%;
 }
 
 .ContentCards .home-top-container img{

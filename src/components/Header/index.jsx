@@ -9,7 +9,7 @@ export default function Header(){
             <div className="button-container">
                 <Link className='header-button' to='/'>Evento</Link>
                 <Link className='header-button' to='/cadastro'>Cadastro</Link>
-                <Link className='header-button' to='/doacoes'>Doações</Link>
+                <Link className='header-button' to='/doacao'>Doações</Link>
             </div>
         </header>
     )
